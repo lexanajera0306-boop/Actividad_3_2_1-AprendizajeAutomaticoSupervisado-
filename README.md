@@ -42,6 +42,31 @@ La prueba espera matriz de confusión `[[71, 1], [2, 40]]` sobre 114 registros.
 
 ## Alcance y uso responsable
 
+## Entregables del proyecto
+
+### Aplicación web
+https://clasificador-mama-equipo-ia.streamlit.app/
+
+### Documentación
+Los archivos finales se encuentran en la carpeta docs:
+
+- Informe_Metodologico_Definitivo.pdf
+- Presentacion_Clasificador_Mama_Actualizada.pdf
+- Presentacion_Clasificador_Mama_Actualizada - Reparado.pptx
+
+### Modelo de inteligencia artificial
+Se compararon cuatro algoritmos:
+KNN, SVM, Random Forest y Árbol de Decisión.
+
+El modelo seleccionado fue SVM.
+
+Accuracy: 97.4 %
+Recall de clase maligna: 95.2 %
+Precision de clase maligna: 97.6 %
+
+Nota: aplicación exclusivamente educativa,
+sin validación para diagnóstico médico.
+
 La herramienta **no realiza diagnósticos médicos**; trabaja con datos públicos de investigación y ejemplos estadísticos. No deben introducirse datos de salud de personas reales.
 
 **Declaración de herramientas:** Como requiere la actividad, el equipo debe incluir en su informe la declaración real de las herramientas de IA generativa que utilizó para desarrollar, revisar o rediseñar el programa, así como las verificaciones realizadas por sus integrantes. La estética de la interfaz no modifica esa obligación.

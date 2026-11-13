@@ -1,0 +1,14 @@
+CÓMO EJECUTAR LA APLICACIÓN EN WINDOWS
+
+1. Extrae el ZIP en Descargas.
+2. Entra a la carpeta Clasificador_Mama_Estilo_Academico.
+3. Haz clic en la barra de direcciones, escribe cmd y pulsa Enter.
+4. En CMD escribe: python -m pip install -r requirements.txt
+5. Después escribe: python -m streamlit run app.py
+6. En Chrome abre: http://localhost:8501
+7. Para detenerla, en CMD presiona Ctrl + C.
+
+PRUEBA BÁSICA
+En la misma carpeta ejecuta: python pruebas_modelo.py
+
+IMPORTANTE: NO es un diagnóstico médico.

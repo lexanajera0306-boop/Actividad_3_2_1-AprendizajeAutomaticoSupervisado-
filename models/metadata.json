@@ -16,52 +16,52 @@
     "mean radius": {
       "min": 6.981,
       "max": 28.11,
-      "mediana": 13.37
+      "mediana": 13.34
     },
     "mean texture": {
       "min": 9.71,
       "max": 39.28,
-      "mediana": 18.84
+      "mediana": 18.9
     },
     "mean perimeter": {
       "min": 43.79,
       "max": 188.5,
-      "mediana": 86.24
+      "mediana": 86.18
     },
     "mean area": {
       "min": 143.5,
       "max": 2501.0,
-      "mediana": 551.1
+      "mediana": 546.4
     },
     "mean smoothness": {
-      "min": 0.05263,
+      "min": 0.06251,
       "max": 0.1634,
-      "mediana": 0.09587
+      "mediana": 0.09524
     },
     "mean compactness": {
       "min": 0.01938,
       "max": 0.3454,
-      "mediana": 0.09263
+      "mediana": 0.09228
     },
     "mean concavity": {
       "min": 0.0,
       "max": 0.4268,
-      "mediana": 0.06154
+      "mediana": 0.0594
     },
     "mean concave points": {
       "min": 0.0,
       "max": 0.2012,
-      "mediana": 0.0335
+      "mediana": 0.03334
     },
     "mean symmetry": {
       "min": 0.106,
       "max": 0.304,
-      "mediana": 0.1792
+      "mediana": 0.1799
     },
     "mean fractal dimension": {
-      "min": 0.04996,
+      "min": 0.05024,
       "max": 0.09744,
-      "mediana": 0.06154
+      "mediana": 0.0613
     }
   },
   "clases": {
@@ -74,5 +74,9 @@
     "Recall": 0.9523809523809523,
     "F1": 0.963855421686747,
     "ROC AUC": 0.9890873015873016
-  }
+  },
+  "origen": "load_breast_cancer; sklearn",
+  "registros_entrenamiento": 455,
+  "registros_prueba": 114,
+  "version_sklearn": "1.8.0"
 }

@@ -1,0 +1,78 @@
+{
+  "modelo": "SVM",
+  "features": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension"
+  ],
+  "rangos": {
+    "mean radius": {
+      "min": 6.981,
+      "max": 28.11,
+      "mediana": 13.37
+    },
+    "mean texture": {
+      "min": 9.71,
+      "max": 39.28,
+      "mediana": 18.84
+    },
+    "mean perimeter": {
+      "min": 43.79,
+      "max": 188.5,
+      "mediana": 86.24
+    },
+    "mean area": {
+      "min": 143.5,
+      "max": 2501.0,
+      "mediana": 551.1
+    },
+    "mean smoothness": {
+      "min": 0.05263,
+      "max": 0.1634,
+      "mediana": 0.09587
+    },
+    "mean compactness": {
+      "min": 0.01938,
+      "max": 0.3454,
+      "mediana": 0.09263
+    },
+    "mean concavity": {
+      "min": 0.0,
+      "max": 0.4268,
+      "mediana": 0.06154
+    },
+    "mean concave points": {
+      "min": 0.0,
+      "max": 0.2012,
+      "mediana": 0.0335
+    },
+    "mean symmetry": {
+      "min": 0.106,
+      "max": 0.304,
+      "mediana": 0.1792
+    },
+    "mean fractal dimension": {
+      "min": 0.04996,
+      "max": 0.09744,
+      "mediana": 0.06154
+    }
+  },
+  "clases": {
+    "0": "Benigno",
+    "1": "Maligno"
+  },
+  "metricas_prueba": {
+    "Accuracy": 0.9736842105263158,
+    "Precision": 0.975609756097561,
+    "Recall": 0.9523809523809523,
+    "F1": 0.963855421686747,
+    "ROC AUC": 0.9890873015873016
+  }
+}
